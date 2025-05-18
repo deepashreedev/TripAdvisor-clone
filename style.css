@@ -194,14 +194,25 @@ padding-left: 10px;
     display: flex;
   }
 
-  .main__sec5__container img, .main__sec6__container img{
+  .main__sec5-1 img, .main__sec6__container img{
     height: 270px;
     width: 270px;
     padding: 8px;
     border-radius: 15px;
   }
 
-  .main__sec5-1{
+.main__sec5-1 h1{
+    position: absolute;
+    left:20px;
+    bottom: 10px;
+    color: white;
+    font-size: 28px;
+ font-weight: 900;
+}
+.main__sec5-1{
+        position:relative;
+}
+  .main__sec5-2{
     position: absolute;
     background-color: white;
     padding: 6px 10px;
@@ -522,7 +533,7 @@ border-radius: 30px;
 /* footer section */
 
 .footer{
-    height: 410px;
+    height: 450px;
     background-color: #F2F2F2;
   margin-top: 4rem;
 }
@@ -556,14 +567,14 @@ margin-bottom: 5px;
 
 .footer__sec2{
     display: flex;
-    margin: 10px 190px;
+    margin: 0px 190px;
     align-items: center;
      /* width: 752px; */
 }
 
 .footer__sec2-1 img{
-    height: 40px;
-  width: 40px;
+    height: 35px;
+  width: 35px;
   margin-top: 15px;
 }
 
@@ -581,8 +592,47 @@ margin-bottom: 5px;
 
 .footer__sec2-2-1 a{
     width: 690px;  
-     margin:0 10px;
+     margin:0 5px;
      font-size: 16px;
      font-weight: 700;
      text-decoration: underline;
+}
+
+.footer__sec2-3{
+display: flex;
+
+}
+.footer__sec2-3-1 .currency{
+margin: 0 10px;
+border-radius: 10px;
+padding: 8px  5px;
+font-weight: 700;
+font-size: 16px;
+border: 2px solid rgba(92, 88, 88, 0.512);
+width: 170px;
+}
+
+.footer__sec2-3-1 .country{
+margin: 0 5px;
+border-radius: 10px;
+padding: 8px  10px;
+font-weight: 700;
+font-size: 16px;
+width: 170px;
+border: 2px solid rgba(92, 88, 88, 0.512);
+}
+
+.footer__sec3{
+    display: flex;
+    margin: 0 190px;
+}
+.footer__sec3 p{
+    font-size: 12px;
+}
+.icons i{
+font-size: 20px;
+margin: 0 0 0 15px;
+}
+.icons {
+    width: 330px;
 }
