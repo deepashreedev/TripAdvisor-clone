@@ -21,48 +21,48 @@ html, body {
     
    
 }
-.nav__sec1-menu,.nav__sec1-contact{
+.nav__sec1-menu{
     display: none;
 }
-.nav__sec1 img , .nav2__sec1 img{
+.nav__sec1 img {
     height: 40px;
     width: 40px
 }
 
-.nav__sec1, .nav2__sec1 {
+.nav__sec1{
     display: flex;
     align-items: center;
 }
 
-.nav__sec1 h1, .nav2__sec1 {
+.nav__sec1 h1 {
     padding-left: 5px;
     font-weight: bolder;
 }
 
-.nav__sec2 , .nav2__sec3{
+.nav__sec2 {
     display: flex;
     align-items: center;
 }
 
-.nav__sec3 img ,  .nav2__sec4 img{
+.nav__sec3 img {
     height: 15px;
 }
 
-.nav__sec2 h4 ,  .nav2__sec3 h4{
+.nav__sec2 h4 {
     padding: 15px;
 }
 
-.nav__sec3 , .nav2__sec4{
+.nav__sec3 {
     display: flex;
     align-items: center;
 }
 
-.nav__sec3 p,.nav2__sec4 p{
+.nav__sec3 p{
     color: rgba(0, 0, 0, 0.149);
     font-size: 25px;
 }
 
-.nav__sec3 button ,  .nav2__sec4 button{
+.nav__sec3 button {
     background-color: black;
     color: white;
     padding: 12px 15px;
@@ -71,11 +71,11 @@ html, body {
     margin-left: 20px;
 }
 
-.nav__sec3 p ,  .nav2__sec4 p{
+.nav__sec3 p {
     margin: 0 10px 0 10px;
 }
 
-
+/* 
 .navbar-2 {
     height: 80px;
     display: flex;
@@ -112,7 +112,7 @@ align-items: center;
 
 .nav2__sec3-search{
     display: none;
-}
+} */
 
 /* main section */
 
