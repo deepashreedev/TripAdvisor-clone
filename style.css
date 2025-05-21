@@ -1975,11 +1975,150 @@ width: 45vw;
     width:50%;
 }
 
+}
+
+/* ---------------------------------------------------------------------- */
 
 
+@media screen and (min-width:1500px) and (max-width:1900px) {
+    
+    .main__sec4,
+    .main__sec4 img {
+        width: 70vw;
+        margin: 0 7.5vw;
+        height: 50vh;
+    }
 
+    .main__sec4__img-desc {
+        left: 11em;
+        top: 27em;
+        width: 60vw;
+    }
 
+.main__sec5{
+    margin-top: 4em;
+      margin-left:7vw ;
+      margin-right: 7vw;
+}
 
+.main__sec5__h2,.main__sec5 p{
+    margin-left:7.5vw ;
+}
 
+.main__sec6__h2,.main__sec6__p{
+       margin-left:7.5vw ;
+}
+
+.main__sec5__container,.main__sec6__container{
+margin-right: 7.5vw;
+margin-left: 7.5vw;
+}
+
+.main__sec5-1 img,.main__sec6-1 img{
+    width:16.8vw;
+  height: 21vh;
+}
+
+.main__sec5-2{
+    display: none;
+}
+
+.main__sec6{
+ margin-left:7vw ;
+      margin-right: 7vw;
+}
+
+.main__sec6-1 h4,.main__sec6-1 h5,.main__sec6-1 p{
+    width: 90%;
+}
+
+.main__sec7 h2{
+      margin-left:15vw ;
+}
+
+.main__sec7-container{
+     margin-left:15vw ;
+      margin-right: 17vw;
+}
+
+.main__sec7-1 img {
+    width: 23vw;
+    height: auto;
+}
+
+.main__sec7{
+    height: 35vh;
+}
+
+.main__sec8 h1,.main__sec8 h2{
+     margin-left:7.5vw ;
+}
+
+.main__sec8{
+    margin-left:7vw ;
+      margin-right:7vw;
+}
+
+.main__sec8-container{
+        margin-left:7.5vw ;
+      margin-right:7vw;
+}
+
+.main__sec8-1 img,.main__sec9-1 img,.main__sec10-1 img{
+   width:16.8vw;
+  height: 21vh;
+}
+
+.main__sec8-1 h1{
+ margin-left: 0;
+}
+
+.main__sec9 h2{
+    margin-left: 7vw;
+}
+
+.main__sec9,.main__sec9-container,.main__sec10,.main__sec10-container{
+    margin-right: 7vw;
+margin-left: 7vw;
+}
+
+.main__sec10 h2,.main__sec10 p{
+   margin-left: 7vw; 
+}
+
+.main__sec11,.main__sec12{
+      margin-right: 16vw;
+margin-left: 14.2vw;  
+}
+
+.main__sec13-1{
+    margin-left: 14.2vw; 
+}
+.main__sec13-2{
+    margin-right: 5vw;
+}
+
+.footer__s1,.footer__sec2,.footer__sec3{
+        margin-right: 16vw;
+margin-left: 14vw;
+
+}
+
+.footer__sec3{
+ padding-bottom: 3em;
+}
+
+.footer__sec3 p{
+    width: 85%;
+    margin-top: 1.5em;
+}
+
+.icons i{
+    margin-top: 1em;
+}
+
+.footer{
+    height: auto;
+}
 
 }
