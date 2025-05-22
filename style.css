@@ -894,9 +894,16 @@ opacity: 0.8;
     .main__sec4__img-desc button {
         box-shadow: 2px 2px 3px black;
         margin-top: 10px;
-        padding: 5px 10px;
+        padding: 10px 10px;
     }
 
+    .main__sec4 img{
+        height:auto;
+    }
+
+    .main__sec11-2-2 h1{
+        margin-top: 3em;
+    }
 
 }
 
